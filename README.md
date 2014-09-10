@@ -3,7 +3,7 @@ tags: todo, cs, algorithms, strings, arrays
 languages: ruby
 resources: 0
 ---
-# Search String
+## Search String
 
 Write a method that checks if one string is in another string, and returns true or false. Don't use `.include?`! :hand:
 
