@@ -8,7 +8,7 @@ resources: 0
 
 ## Objective
 
-Write a method that accepts two string arguments, a haystack and a needle.
+Write a method that accepts two string arguments, a needle and a haystack.
 
 ## Examples
 
@@ -18,7 +18,7 @@ For instance, if the haystack is the string "this" and the needle is the string 
 haystack = "this"
 needle = "hi"
 
-contains_needle?(haystack, needle)
+contains_needle?(needle, haystack)
 # => true
 ```
 
@@ -28,16 +28,16 @@ This is because the word "hi" is within the word "this". However, your method sh
 haystack = "zoology"
 needle = "cat"
 
-contains_needle?(haystack, needle)
+contains_needle?(needle, haystack)
 # => false
 
 new_needle = "log"
 
-contains_needle?(haystack, new_needle)
+contains_needle?(new_needle, haystack)
 # => true
 ```
 
-## Notes
+## Note
 
 Don't use the `.include?` method.
 
